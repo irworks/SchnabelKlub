@@ -1,0 +1,42 @@
+
+.overview-box {
+	margin-left: 276px;
+	width: 300px;
+	padding: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 95%;
+	background: #f5f5f5;
+	border: 1px solid #e5e5e5;
+	text-align: center;
+}
+
+.dash-inner-cont {
+	text-align: left;
+	padding-top: 15px;
+}
+
+.bio-box {
+}
+
+.p-left {
+	float: left;
+	margin-left: 15px;
+}
+
+.p-right {
+	float: right;
+	margin-right: 15px;
+}
+
+.t-bottom {
+	margin-top: 45px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 640px) 
+{
+	.overview-box {
+		margin-left: 10px;
+		width: 80%;;
+		padding: 10px;
+	}
+}

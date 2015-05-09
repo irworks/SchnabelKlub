@@ -1,0 +1,24 @@
+.white {
+	color: white !important;
+}
+
+.white a {
+	color: white !important;
+}
+
+#login-logo-box{
+	margin-bottom: 0px;
+	margin-top: -30px;
+	height: 80px;
+	width: auto;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 640px) 
+{
+	.mainfooter {
+		margin-top: 0px;
+		padding: 5px;
+		font-size: 12px;
+	}
+	
+}
