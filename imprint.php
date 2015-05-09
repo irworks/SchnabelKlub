@@ -14,10 +14,10 @@
 		<div id="pageCont">
 
 			<div class='article'><h1>Angaben gem&auml;&szlig; &sect; 5 TMG:</h1>
-			<p>Ilja Rozhko<br /> Ernst-Abbe Weg 14<br /> 40589 D&uuml;sseldorf</p>
+			<p>First Last<br /> Street<br /> ZIP City</p>
 			<h2>Kontakt:</h2>
-			<p>Telefon:&nbsp;+49 (0) 15150757125</p>
-			<p>E-Mail: admin [(at)] irworks [(dot/Punkt)] de</p>
+			<p>Telefon:&nbsp;+1234567890</p>
+			<p>E-Mail: you [(at)] domain [(dot/Punkt)] com</p>
 			<p>&nbsp;</p>
 			<p>Quelle:&nbsp;<em>Erstellt durch den Impressum Generator von&nbsp;<a href="http://www.e-recht24.de/">e-recht24.de</a></em></p>
 			<h2>Haftungsausschluss:</h2>
