@@ -28,6 +28,10 @@ $res			 = denyQuest($questID, $userID);
 
 if($res) {
 	$error = false;
+	
+	$tweetApproveMessage = "@" . getTwitterNameByID($userID) . " Deine Quest im #SchnabelKlub wurde leider abgelehnt, noch ein Versuch?";
+
+	sendNewQuestApproveTweet($tweetApproveMessage);
 }
 
 $rvalue['error'] = false;

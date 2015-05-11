@@ -14,6 +14,10 @@ function sendNewTweet($message) {
 
 function sendNewQuestApproveTweet($message) {
 
+	$randHashtags = array('#schnbl', '#schnklub', '#squest', '#schnbltwt');
+	
+	$message 	 .= ' ' . $randHashtags[array_rand($randHashtags)]; 
+
 	$connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, "BLAH", "CRAP");
 	$content = $connection->post("statuses/update", array("status" => $message));
 	

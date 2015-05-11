@@ -29,6 +29,10 @@ $res			 = approveQuest($questID, $score, $userID);
 
 if($res) {
 	$error = false;
+	
+	$tweetApproveMessage = "@" . getTwitterNameByID($userID) . " Deine Quest im #SchnabelKlub wurde angenommen, auf in die nächste?";
+	
+	sendNewQuestApproveTweet($tweetApproveMessage);
 }
 
 $rvalue['error'] = false;
